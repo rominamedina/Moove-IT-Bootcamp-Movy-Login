@@ -1,0 +1,230 @@
+@font-face {
+  font-family: SFProDisplay;
+  src: url(fonts/FontsFree-Net-SFProDisplay-Regular.ttf);
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "SFProDisplay";
+  color: white;
+}
+.container {
+  background-image: url(img/Pattern_Movy_Login.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  padding: 15px 70px;
+}
+
+.logo {
+  padding-top: 20px;
+}
+
+#oval {
+  float: right;
+  margin-right: 35px;
+}
+
+nav {
+  width: 100%;
+}
+
+.menu-nav {
+  float: right;
+}
+
+.menu-nav li {
+  display: inline-flex;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.menu-nav li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+#login-buttom {
+  width: 115px;
+  height: 40px;
+  background: #0578ff;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  width: 400px;
+  padding: 25px;
+  background-color: rgba(0, 0, 0, 0.801);
+  border-radius: 4px;
+  color: white;
+}
+
+.login-form h1 {
+  text-align: center;
+  font-size: 36px;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form input {
+  align-self: center;
+  width: 87%;
+  height: 30px;
+  padding: 4px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.login-form input::placeholder {
+  padding: 8px;
+  font-size: 14px;
+}
+
+.login-form button {
+  align-self: center;
+  width: 90%;
+  height: 40px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #0578ff;
+  color: white;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.login-form .record-checkbox {
+  display: inline-flex;
+  width: 95%;
+  height: 20px;
+  justify-content: space-between;
+}
+
+.login-form .record-checkbox div {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.record-checkbox a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+#checkbox {
+  display: inline-flex;
+  margin-left: 20px;
+  width: auto;
+  height: auto;
+}
+
+#checkbox label {
+  color: white;
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+#checkbox input {
+  color: #d8d8d8;
+  width: auto;
+  margin-top: 15px;
+}
+
+.facebook-login {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+.facebook-login a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.new_in_Movy {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.new_in_Movy p {
+  color: white;
+  font-size: 15px;
+  padding: 2px;
+}
+
+.new_in_Movy .suscription {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  padding: 2px;
+}
+
+footer {
+  background: black;
+  padding: 30px;
+  margin-top: 50px;
+}
+
+footer .question {
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+.footer-list {
+  display: flex;
+  display: table;
+  width: 80%;
+  justify-content: start;
+}
+
+.list {
+  width: 100%;
+  margin-top: 50px;
+  column-count: 4;
+}
+
+.footer-list li {
+  padding: 5px;
+  list-style-type: none;
+}
+
+.footer-list a {
+  margin-top: -5px;
+  text-decoration: none;
+  color: white;
+}
